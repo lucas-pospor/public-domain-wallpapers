@@ -64,12 +64,11 @@ Images go in a folder per style:
 
 ```
 wallpapers/<style>/<style>-NN-<descriptor>.png
-wallpapers/<style>/README.md
 ```
 
 For example, `wallpapers/minimal/minimal-04-dune-sage.png`. You can add new
-variants to an existing style or start a new one. Each style's README has a
-short description and a table with one line per image.
+variants to an existing style or start a new one. If you start a new style,
+add a row for it to the table in the main README.
 
 Technical requirements:
 
@@ -93,7 +92,5 @@ free of rendering artifacts:
 
 1. Fork the repository and create a branch.
 2. Add your images to the right `wallpapers/<style>/` folder.
-3. Add one line per new image to that style's `README.md`, or write a new
-   README if you're starting a style.
-4. Open a pull request. Include the CC0 statement above and a sentence about
+3. Open a pull request. Include the CC0 statement above and a sentence about
    what you added.
