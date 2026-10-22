@@ -1,0 +1,4 @@
+# Generator scripts are kept local and not published
+styles/
+__pycache__/
+*.pyc
